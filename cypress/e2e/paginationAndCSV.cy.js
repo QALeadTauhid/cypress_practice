@@ -4,8 +4,8 @@ describe('Pagination and Save Data', () => {
     beforeEach('Login',()=>{
         // cy.visit("https://demo.opencart.com/admin/index.php", { failOnStatusCode: false });
         cy.visit("https://admin-ptm-panel.pay2me.co/login");
-        cy.get("input[id=':r0:']").type("itteam.9@aieus.com")
-        cy.get('#auth-login-v2-password').type("sVs$j3z201IV")
+        cy.get("input[id=':r0:']").type("--------")
+        cy.get('#auth-login-v2-password').type("---------")
         cy.get("button[id=':r1:']").click()
 
         //cy.get(".btn-close").click()
